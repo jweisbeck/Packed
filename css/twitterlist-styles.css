@@ -1,0 +1,7 @@
+
+.tweets .status {
+	display: block;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: .5em 0;
+}
