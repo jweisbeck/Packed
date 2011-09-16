@@ -122,13 +122,14 @@ Author: Jesse Weisbeck, with liberally borrowed notions from Ethan Marcotte and 
 			,'css/main.css?cachebust='+Math.floor(Math.random()*10000000000)
 		];
 		
-	
+	// additional, section-specific js assets
 	packed.scripts = {
 		tweets: [
 					'http://www.twitter.com/statuses/user_timeline/jlweisbeck.json?callback=tw.callback&count=5'
 				]
 	};
 	
+	// additional, section specific css assets
 	packed.styles = {
 		tweets: 'css/twitterlist-styles.css?cachebust='+Math.floor(Math.random()*10000000000) 
 	};
