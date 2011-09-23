@@ -28,11 +28,11 @@ devices.
 > The body class (tweets here as an example) is the key that loader.js will use to conditionally load other js/css.
 
 
-### *js/loader.js:* loader.js defines two arrays, jsToLoad and cssToLoad, that list any site-wide assets.
+> ### *js/loader.js:* loader.js defines two arrays, jsToLoad and cssToLoad, that list any site-wide assets.
 >	in packed.scripts and packed.styles are key/value pairs that load assets based on a body class. The key should be named the same as the body class on the corresponding html document you want to load the assets on.
 >	Note that the reset.css and main.css stylesheets are a common use-case foundation, and the google font was thrown in for fun  just as an example of how this starter can be used. The twitter script was also used as just an example.
 
-### *js/coolshit.js:* and css/twitterlist-styles.css
+> ### *js/coolshit.js:* and css/twitterlist-styles.css
 > This is an example script where developers would write specific javascript for the site. The file is merely an example and it could be included site-wide in jsToLoad, or it could be added to packed.scripts and loaded conditionally on a specific HTML document
 > twitterlist-styles.css is likewise and example of a conditionally loaded stylesheet that is only used in an HTML document  with a body tag class of "tweets".
 
